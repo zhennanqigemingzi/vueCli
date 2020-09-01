@@ -7,7 +7,14 @@ const router = new VueRouter({
         {
             path:'/',
             meta: {title:'test'},
-            component: ()=> import('../components/index.vue')
+            component: ()=> import('../components/index.vue'),
+            children:[
+                {
+                    path:'/editor',
+                    meta:{title:'编辑'},
+                    component: ()=> import('../components/editor/index.vue')
+                }
+            ]
         }
     ]
 })

@@ -1,5 +1,9 @@
 <template>
-  <div>test</div>
+  <div>
+    <router-view></router-view>
+    主页
+  </div>
+  
 </template>
 
 <script>
