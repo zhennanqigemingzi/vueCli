@@ -9,7 +9,7 @@
 <script>
 import YamlEditor from './editor';
 
-const yamlData = "- hosts: all\n  become: yes\n  become_method: sudo\n  gather_facts: no\n\n  tasks:\n  - name: \"install {{ package_name }}\"\n    package:\n      name: \"{{ package_name }}\"\n      state: \"{{ state | default('present') }}\"";
+let yamlData = '#bin\n#\n\n\nlanguages: \n - Ruby\n - Perl\n - Python \n# sb\nwebsites:\n YAML: yaml.org \n Ruby: ruby-lang.org \n Python: python.org \n Perl: use.perl.org \n'
 
 export default {
   name: 'YamlEditorDemo',

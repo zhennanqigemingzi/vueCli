@@ -37,6 +37,8 @@ export default {
       mode: 'text/x-yaml', // 语法model
       gutters: ['CodeMirror-lint-markers'],  // 语法检查器
       theme: 'monokai', // 编辑器主题
+      matchBrackets: true,   // 括号匹配
+      lineWrapping: true,    // 自动换行
       lint: true // 开启语法检查
     })
 

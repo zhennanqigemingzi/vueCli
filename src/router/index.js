@@ -13,6 +13,11 @@ const router = new VueRouter({
                     path:'/editor',
                     meta:{title:'编辑'},
                     component: ()=> import('../components/editor/index.vue')
+                },
+                {
+                    path:'/myTree',
+                    meta:{title:'组件树'},
+                    component: ()=> import('../components/tree/index.vue')
                 }
             ]
         }

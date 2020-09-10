@@ -1,0 +1,18 @@
+{
+    "code": 0,
+    "data": [
+        {
+          "label": "一级 1",
+          "leaf":true
+        },
+        {
+          "label": "一级 2",
+          "leaf":true
+        },
+        {
+          "label": "一级 3",
+          "leaf":false
+        }
+      ],
+    "msg":"请求成功"
+}
